@@ -1,7 +1,9 @@
 # Wine-quality-data-analysis
-This short project identifies the statistically significant predictors of wine quality, and performs residual analysis and leverage analysis in order to validate linear regression assumptions.
+This project performs exploratory data analysis and graphically tests some hypotheses. Then it identifies the statistically significant predictors of wine quality, and performs residual analysis and leverage analysis in order to validate linear regression assumptions.
 
 ## Methods
+- Generated descriptive statistics, then generated some plots.
+- Two hypotheses were tested from plots generated on some of the variables. 
 - Performed OLS-based multiple linear regression with t-test on a wine quality data with 1599 observations with wine quality as the response variable and 11 others as predictors.
 - Plotted fitted vs residuals and leverage plots.
 - Tried a few interaction effects between some predictors.
